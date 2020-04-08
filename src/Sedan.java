@@ -18,8 +18,4 @@ public class Sedan extends Car implements StreetOkay{
         }
     }
 
-    @Override
-    public void airbags() {
-        super.airBags();
-    }
 }

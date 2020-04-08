@@ -13,6 +13,6 @@ public class TruckTest {
 
     @Test
     public void testGetBedLength() {
-        assertEquals(6.3, truck.getBedLength());
+        assertEquals(6.3, truck.getBedLength(), .0);
     }
 }
